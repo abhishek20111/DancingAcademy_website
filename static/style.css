@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&family=Baloo+Bhaina+2:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    left: 20px;
+}
+#logo img{
+    height: 56px;
+    border-radius: 11px;
+}
+#navbar logo{
+    left: 20px;
+}
+
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar{
+    background-color: black;
+    /* opacity: 0.8; */
+    padding: 12px 4px;
+}
+
+#navbar li{
+    list-style: none;
+    margin: 10px 29px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 9px 8px;
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive;
+   
+}
+
+#navbar li a:hover{
+    background-color: rgb(82, 91, 100);
+    padding: 6px;
+    border-radius: 12px;
+    cursor: pointer;
+   
+}
+
+#introSection {
+    height: 400px;
+    background-color:bisque;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://www.cmuse.org/wp-content/uploads/2020/05/learn-dance-lessons-online.jpg") ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#introSection div.small{
+    font-size: medium;
+    margin: 10px 22px;
+}
+/* #introSection::before{
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background: url("https://www.cmuse.org/wp-content/uploads/2020/05/learn-dance-lessons-online.jpg");
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.7;
+} */
+/* sponser section */
+#sponserSection {
+    height: 300px;
+    background-color: aqua;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-wrap: break-word;
+}
+#sponserSection h2{
+    text-align: center;
+    padding-top: 23px;
+}
+#sponsers{
+    height: 197px;
+    max-width: 1000px;
+    margin: 6px 295px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.spimage{
+    height: 49%;
+    margin: 25px;
+}
+
+/* Mission section */
+#mission h2{
+    text-align: center;
+    padding-top: 23px;
+    text-shadow: 20px;
+}
+#mission{
+    height: 300px;
+    background-color: rgb(92, 121, 229);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#mission h3{
+    color: red;
+    text-align: center;
+    margin: 6px 7px;
+    text-shadow: 20px;
+    margin-bottom: 14px;
+}
+
+.card{
+    border: 4px solid #32df35;
+    width: 32%;
+    margin: 33px 8px;
+    display: inline-block;
+    height: 174px;
+    background-color: #afa570;
+    padding: 16px;
+    border-radius:20px
+}
+/* Contact us */
+
+
+
+
+/* fotter */
+
+#fotter{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    height: 27px;
+    bottom: 2px;
+}
